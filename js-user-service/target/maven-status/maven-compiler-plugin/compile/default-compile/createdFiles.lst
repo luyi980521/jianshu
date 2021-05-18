@@ -1,1 +1,5 @@
+com/lyman/user/service/impl/UserServiceImpl.class
 com/lyman/UserApplication.class
+com/lyman/user/service/UserService.class
+com/lyman/user/mapper/TbUserMapper.class
+com/lyman/user/controller/UserController.class

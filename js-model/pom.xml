@@ -11,5 +11,12 @@
 
     <artifactId>js-model</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.lyman</groupId>
+            <artifactId>js-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

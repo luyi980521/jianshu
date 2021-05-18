@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyman.user.mapper.TbUserMapper">
+  <resultMap id="BaseResultMap" type="com.lyman.pojo.TbUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="head_photo" jdbcType="VARCHAR" property="headPhoto" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="mobile" jdbcType="INTEGER" property="mobile" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="website" jdbcType="VARCHAR" property="website" />
+    <result column="freeze" jdbcType="INTEGER" property="freeze" />
+    <result column="create_time" jdbcType="DATE" property="createTime" />
+    <result column="update_time" jdbcType="DATE" property="updateTime" />
+  </resultMap>
+</mapper>

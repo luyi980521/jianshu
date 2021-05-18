@@ -11,5 +11,11 @@
 
     <artifactId>js-service-api</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.lyman</groupId>
+            <artifactId>js-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
